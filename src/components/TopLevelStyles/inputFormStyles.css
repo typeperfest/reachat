@@ -1,17 +1,35 @@
 .form {
     margin: 10px;
     padding: 10px;
-    width: 30vw;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 10vh;
     box-shadow:
             0 20px 20px rgba(0, 0, 0, 0.05),
             -20px 0 20px rgba(0, 0, 0, 0.05),
             0 -20px 20px rgba(0, 0, 0, 0.05),
             20px 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.registerQuote {
+    font: small-caps bold 26px sans-serif;
+}
+
+.form.login {
+    width: 30vw;
+    height: 70vh;
+    top: 10vh;
+}
+
+.form.register {
+    height: 50vh;
+    width: 35vw;
+    top: 20vh;
+}
+
+.tagline {
+    margin-top: 20px;
+    font: small-caps bold 20px sans-serif;
 }

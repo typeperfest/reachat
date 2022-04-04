@@ -3,13 +3,11 @@ import UserInputForm from './GeneralComponents/UserInputForm'
 import Logo from './GeneralComponents/Logo'
 
 import './TopLevelStyles/inputFormStyles.css'
-import './GeneralComponents/styles/logo.css'
-
 
 const Login = () => {
 
     return (
-        <div className={"form"}>
+        <div className={"form login"}>
             <Logo/>
             <p className={"tagline"}>For everyone to see your thoughts.</p>
             <UserInputForm fieldsNamesList={[{id: 0, name: "login"}, {id: 1, name: "password"}]} buttonText={"Sign in"} />

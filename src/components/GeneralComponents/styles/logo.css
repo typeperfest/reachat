@@ -6,11 +6,6 @@
     border-radius: 20px;
 }
 
-.tagline {
-    margin-top: 20px;
-    font: small-caps bold 20px sans-serif;
-}
-
 .logoContent {
     display: flex;
     justify-content: center;
