@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a28c44f-1f11-48ff-a8d9-146a19ece9d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedPage/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedPage/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,15 @@
       <recent name="$PROJECT_DIR$/src/feed" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +89,8 @@
       <workItem from="1652878793348" duration="30590000" />
       <workItem from="1653118452650" duration="2854000" />
       <workItem from="1653595436822" duration="771000" />
-      <workItem from="1653669175855" duration="747000" />
+      <workItem from="1653669175855" duration="2222000" />
+      <workItem from="1653757748669" duration="662000" />
     </task>
     <servers />
   </component>
