@@ -24,7 +24,7 @@ const PostList = () => {
     return (
         <div>
             {postList.map(post =>
-                <Post id={post.id} author={post.author} content={post.content} />
+                <Post key={post.id} author={post.author} content={post.content} />
             )}
         </div>
     );
