@@ -1,10 +1,15 @@
 import React from 'react';
 
 const NewPostButton = () => {
-    return (
-        <div>
 
-        </div>
+    function newPostButtonClicked() {
+        console.log("New post clicked")
+    }
+
+    return (
+        <button onClick={newPostButtonClicked} >
+            +
+        </button>
     );
 };
 
