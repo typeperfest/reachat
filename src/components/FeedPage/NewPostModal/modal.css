@@ -19,7 +19,11 @@
 }
 
 .modal__content {
-    padding: 20px;
+    display: block;
+    align-items: center;
+    overflow: hidden;
+
+    padding: 10px;
     border-radius: 12px;
     background-color: white;
     width: 50vw;
@@ -29,4 +33,11 @@
 
 .modal__content.active {
     transform: scale(1);
+}
+
+.text__area {
+    padding: 5px;
+    width: 100%;
+    resize: none;
+    font-size: 16px;
 }
