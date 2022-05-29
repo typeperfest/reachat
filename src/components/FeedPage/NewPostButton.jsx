@@ -1,13 +1,8 @@
 import React from 'react';
 
-const NewPostButton = () => {
-
-    function newPostButtonClicked() {
-        console.log("New post clicked")
-    }
-
+const NewPostButton = (props) => {
     return (
-        <button onClick={newPostButtonClicked} >
+        <button onClick={props.onClick} >
             +
         </button>
     );
