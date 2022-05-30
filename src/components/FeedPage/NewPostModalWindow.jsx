@@ -12,6 +12,7 @@ const NewPostModalWindow = (props) => {
             + '.' + date.getFullYear();
         let postObject = { author: 0, content: inputContentRef.current.value, date: stringDate}
         console.log(postObject)
+        props.setActive(false)
     }
 
     return (
