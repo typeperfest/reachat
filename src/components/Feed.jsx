@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import NavBar from './FeedPage/NavBar'
 import PostList from './FeedPage/PostList'
 import NewPostButton from './FeedPage/NewPostButton'
-import NewPostModalWindow from './FeedPage/NewPostModal/NewPostModalWindow'
+import NewPostModalWindow from './FeedPage/NewPostModalWindow'
 
 const Feed = () => {
 
