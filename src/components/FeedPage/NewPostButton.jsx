@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/roundButton.css'
+import './styles/roundButtonStyles.css'
 
 const NewPostButton = (props) => {
     return (
