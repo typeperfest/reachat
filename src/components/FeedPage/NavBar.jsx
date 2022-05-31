@@ -16,11 +16,16 @@ const NavBar = () => {
         console.log("Search clicked")
     }
 
+    function logOutButtonClicked() {
+        console.log("Log out clicked")
+    }
+
     return (
         <div className={"navBar"}>
             <NavBarButton onClick={myPostsButtonClicked} text={"My Posts"} />
             <NavBarButton onClick={allPoststButtonClicked} text={"All Posts"} />
             <NavBarButton onClick={searchButtonClicked} text={"Search"} />
+            <NavBarButton isFloatingRight={true} onClick={logOutButtonClicked} text={"Log out"}/>
         </div>
     );
 };

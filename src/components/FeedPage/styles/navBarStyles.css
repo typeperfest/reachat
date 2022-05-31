@@ -4,17 +4,24 @@
     top: 0;
     left: 0;
     background-color: #333;
-    height: 40px;
+    height: 45px;
 }
 
 .navButton {
     background-color: #333;
+    padding: 5px 15px;
+    border: none;
     margin-left: 0;
     margin-right: 0;
     color: white;
+    font-size: 18px;
     text-align: center;
     cursor: pointer;
     transition: 230ms;
+}
+
+.navButton.right {
+    margin-left: auto;
 }
 
 .navButton:hover {
