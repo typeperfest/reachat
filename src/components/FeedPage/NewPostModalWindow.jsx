@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import './styles/modal.css'
+import './styles/modalStyles.css'
 import ConfirmDataButton from '../GeneralComponents/ConfirmDataButton'
 
 const NewPostModalWindow = (props) => {
