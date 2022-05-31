@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
 import NavBar from './FeedPage/NavBar'
-import PostList from './FeedPage/PostList'
 import NewPostButton from './FeedPage/NewPostButton'
 import NewPostModalWindow from './FeedPage/NewPostModalWindow'
+import FeedContent from './FeedPage/FeedContent'
 
 const Feed = () => {
 
@@ -12,7 +12,7 @@ const Feed = () => {
     return (
         <div>
             <NavBar/>
-            <PostList/>
+            <FeedContent/>
             <NewPostButton onClick={() => setIsModalActive(true)}/>
             <NewPostModalWindow active={isModalActive} setActive={setIsModalActive}/>
         </div>
