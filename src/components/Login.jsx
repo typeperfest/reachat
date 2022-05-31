@@ -12,7 +12,7 @@ const Login = () => {
         <div className={"loginForm"}>
             <Logo/>
             <p className={"tagline"}>For everyone to see your thoughts.</p>
-            <UserInputForm fieldsNamesList={[{id: 0, name: "Login"}, {id: 1, name: "Password"}]} buttonText={"Sign in"} />
+            <UserInputForm fieldsNamesList={[{id: 0, name: "login"}, {id: 1, name: "password"}]} buttonText={"Sign in"} />
             <a href="/register">Don't have an account?</a>
         </div>
     );
