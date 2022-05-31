@@ -3,9 +3,7 @@ import './styles/roundButton.css'
 
 const NewPostButton = (props) => {
     return (
-        <button className={"roundButton"} onClick={props.onClick} >
-            +
-        </button>
+        <button className={"roundButton"} onClick={props.onClick}/>
     );
 };
 
