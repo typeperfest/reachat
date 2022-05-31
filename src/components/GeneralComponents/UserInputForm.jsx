@@ -1,6 +1,7 @@
 import React, {useState, useEffect}  from 'react';
 import ConfirmDataButtom from './ConfirmDataButton'
 import NamedInputsList from './NamedInputsList'
+import './styles/inputStyles.css'
 
 const UserInputForm = (props) => { // has (str)buttonText, (str[])fieldsNames
 
@@ -17,7 +18,7 @@ const UserInputForm = (props) => { // has (str)buttonText, (str[])fieldsNames
     }
 
     return (
-        <div>
+        <div className={"userInputForm"}>
             <NamedInputsList fieldsNamesList={props.fieldsNamesList} onChange={userInnputDataChanged}/>
             <ConfirmDataButtom onClick={confirmNewUser} text={props.buttonText}/>
         </div>

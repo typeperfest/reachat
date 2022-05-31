@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles/inputStyles.css'
 
 const NamedInput = (props) => {
     return (
-        <div>
-            <div> {props.inputName + ':'} </div>
-            <input type="text" onChange={ event => props.onChange(props.inputName, event.target.value) } />
+        <div className={"namedInput"}>
+            <div className={"name"}> {props.inputName + ':'} </div>
+            <input className={"input"} type="text" onChange={ event => props.onChange(props.inputName, event.target.value) } />
         </div>
     );
 };
