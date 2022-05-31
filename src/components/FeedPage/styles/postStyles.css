@@ -1,6 +1,7 @@
 .feedContent {
     display: flex;
     justify-content: center;
+    margin-top: 45px;
 }
 
 .postList {
@@ -9,6 +10,11 @@
     width: 60%;
     align-items: center;
     justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-shadow:
+        inset 10px 0 10px rgba(0, 0, 0, 0.1),
+        inset -10px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .post {
