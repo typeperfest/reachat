@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 20px 20px;
+    border: 3px solid green;
+    border-radius: 20px;
+}
+
+.tagline {
+
+}
+
+.logoContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: small-caps bold 90px sans-serif;
+}
+
+.logoContent.re {
+    color: green;
+}
+
+.logoContent.chat {
+    color: black;
+}
