@@ -12,17 +12,16 @@
 }
 
 .post {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .postAuthor {
+    display: inline-block;
     border: 3px solid teal;
     border-radius: 7px;
     padding: 10px;
+
     font-size: 20px;
     margin-bottom: 3px;
 }
