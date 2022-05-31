@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles/postStyles.css'
 
 const Post = (props) => {
     return (
-        <div>
-            <div> {props.author} </div>
-            <div> {props.content} </div>
+        <div className={"post"}>
+            <div className={"postAuthor"}> {props.author} </div>
+            <div className={"postContent"}> {props.content} </div>
         </div>
     );
 };

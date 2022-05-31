@@ -1,7 +1,36 @@
-.postList {
+.feedContent {
+    display: flex;
+    justify-content: center;
+}
 
+.postList {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
 }
 
 .post {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.postAuthor {
+    border: 3px solid teal;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.postContent {
+    padding: 10px;
+    margin-top: 3px;
+    border: 3px solid green;
+    border-radius: 7px;
+    font-size: 16px;
 }

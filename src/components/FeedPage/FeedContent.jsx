@@ -1,9 +1,10 @@
 import React from 'react';
 import PostList from './PostList'
+import './styles/postStyles.css'
 
 const FeedContent = () => {
     return (
-        <div>
+        <div class={"feedContent"}>
             <PostList/>
         </div>
     );
