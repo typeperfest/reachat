@@ -1,10 +1,9 @@
 import React from 'react';
+import './styles/roundButtonStyles.css'
 
-const NewPostButton = () => {
+const NewPostButton = (props) => {
     return (
-        <div>
-
-        </div>
+        <button className={"roundButton"} onClick={props.onClick}/>
     );
 };
 

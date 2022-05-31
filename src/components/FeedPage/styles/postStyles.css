@@ -1,0 +1,41 @@
+.feedContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.postList {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-shadow:
+        inset 10px 0 10px rgba(0, 0, 0, 0.1),
+        inset -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.postAuthor {
+    display: inline-block;
+    border: 3px solid teal;
+    border-radius: 7px;
+    padding: 10px;
+
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.postContent {
+    padding: 10px;
+    margin-top: 3px;
+    border: 3px solid green;
+    border-radius: 7px;
+    font-size: 16px;
+}

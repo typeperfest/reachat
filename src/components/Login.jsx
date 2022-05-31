@@ -5,8 +5,8 @@ const Login = () => {
 
     return (
         <div>
-            <UserInputForm fieldsNamesList={[{id: 0, name: "Login"}, {id: 1, name: "Password"}]} buttonText={"login"} />
-            <a href="/register">Register</a>
+            <UserInputForm fieldsNamesList={[{id: 0, name: "Login"}, {id: 1, name: "Password"}]} buttonText={"Sign in"} />
+            <a href="/register">Don't have an account?</a>
         </div>
     );
 };

@@ -1,0 +1,35 @@
+.roundButton {
+    display:inline-block;
+    width: 64px;
+    height: 64px;
+    border-radius: 30%;
+    border: 3px solid #4CAF50;
+    cursor: pointer;
+    box-shadow:
+            0 6px 4px rgba(0, 0, 0, 0.05),
+            -6px 0 4px rgba(0, 0, 0, 0.05),
+            0 -6px 4px rgba(0, 0, 0, 0.05),
+            6px 0 4px rgba(0, 0, 0, 0.05);
+
+    background:
+            linear-gradient(#4CAF50, #4CAF50),
+            linear-gradient(#4CAF50, #4CAF50),
+            rgb(250, 250, 250);
+    background-position: center;
+    background-size: 50% 3px,3px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat: no-repeat;
+
+    position: fixed;
+    bottom: 7vh;
+    right: 5vw;
+    transition: 230ms;
+}
+
+.roundButton:hover {
+    transform: scale(1.15);
+    box-shadow: none;
+}
+
+.roundButton:active {
+    transform: translateY(10px);
+}
