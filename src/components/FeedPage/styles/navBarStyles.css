@@ -1,0 +1,23 @@
+.navBar {
+    display: flex;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    height: 40px;
+}
+
+.navButton {
+    background-color: #333;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 230ms;
+}
+
+.navButton:hover {
+    background-color: white;
+    color: #333;
+}
