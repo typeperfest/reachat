@@ -1,5 +1,6 @@
 import React from 'react';
-import RegularButton from '../GeneralComponents/RegularButton'
+import NavBarButton from './NavBarButton'
+import './styles/navBarStyles.css'
 
 const NavBar = () => {
 
@@ -16,10 +17,10 @@ const NavBar = () => {
     }
 
     return (
-        <div>
-            <RegularButton onClick={myPostsButtonClicked} text={"My Posts"} />
-            <RegularButton onClick={allPoststButtonClicked} text={"All Posts"} />
-            <RegularButton onClick={searchButtonClicked} text={"Search"} />
+        <div className={"navBar"}>
+            <NavBarButton onClick={myPostsButtonClicked} text={"My Posts"} />
+            <NavBarButton onClick={allPoststButtonClicked} text={"All Posts"} />
+            <NavBarButton onClick={searchButtonClicked} text={"Search"} />
         </div>
     );
 };
