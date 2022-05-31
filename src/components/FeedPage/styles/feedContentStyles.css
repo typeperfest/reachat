@@ -32,8 +32,9 @@
 
 .postAuthor {
     display: inline-block;
+    font: small-caps bold 26px sans-serif;
     border: none;
-    padding: 10px 10px 10px 10%;
+    padding: 10px 10px 10px 5%;
     font-size: 25px;
     margin-bottom: 0;
 }
