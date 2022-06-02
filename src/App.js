@@ -7,19 +7,23 @@ import {
 import Login from './components/Login'
 import Feed from './components/Feed'
 import NewUser from './components/NewUser'
+import Footer from './components/Footer'
 
 import './styles/App.css'
 
 function App() {
   return (
-      <Router>
-          <Routes>
-              <Route path="/login" element={<Login/>} />
-              <Route path="/feed" element={<Feed/>} />
-              <Route path="/register" element={<NewUser/>} />
-              <Route path="/" element={<Login/>} />
-          </Routes>
-      </Router>
+      <div className={"appConponent"}>
+          <Router>
+              <Routes>
+                  <Route path="/login" element={<Login/>} />
+                  <Route path="/feed" element={<Feed/>} />
+                  <Route path="/register" element={<NewUser/>} />
+                  <Route path="/" element={<Login/>} />
+              </Routes>
+          </Router>
+          <Footer/>
+      </div>
   );
 }
 
