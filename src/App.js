@@ -13,7 +13,7 @@ import './styles/App.css'
 
 function App() {
   return (
-      <div className={"appConponent"}>
+      <div className={"appContent"}>
           <Router>
               <Routes>
                   <Route path="/login" element={<Login/>} />
