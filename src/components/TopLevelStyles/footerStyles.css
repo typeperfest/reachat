@@ -1,6 +1,10 @@
 .footer {
     width: 100vw;
-    height: 200px;
+    height: 100px;
     background-color: #333;
-    margin-top: 50px;
+}
+
+.footer.absoluteBottom {
+    position: absolute;
+    bottom: 0;
 }
