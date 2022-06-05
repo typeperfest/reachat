@@ -16,7 +16,7 @@ const Feed = () => {
             <FeedContent/>
             <NewPostButton onClick={() => setIsModalActive(true)}/>
             <NewPostModalWindow active={isModalActive} setActive={setIsModalActive}/>
-            <Footer fixed={false}/>
+            <Footer/>
         </div>
     );
 };

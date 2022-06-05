@@ -1,16 +1,11 @@
 .footer {
-    position: relative;
-    bottom: 0;
     display: flex;
+    position: relative;
     align-items: flex-start;
-    width: 100vw;
+    width: 100%;
     height: 80px;
     background-color: #333;
-}
-
-.footer.absoluteBottom {
-    position: absolute;
-    bottom: 0;
+    flex: 0 0 auto;
 }
 
 .copyright {
