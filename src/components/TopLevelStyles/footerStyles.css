@@ -1,4 +1,6 @@
 .footer {
+    display: flex;
+    align-items: flex-start;
     width: 100vw;
     height: 100px;
     background-color: #333;
@@ -7,4 +9,10 @@
 .footer.absoluteBottom {
     position: absolute;
     bottom: 0;
+}
+
+.copyright {
+    margin: 10px;
+    color: white;
+    font-size: 10px;
 }
