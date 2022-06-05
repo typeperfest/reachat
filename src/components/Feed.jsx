@@ -4,6 +4,7 @@ import NavBar from './FeedPage/NavBar'
 import NewPostButton from './FeedPage/NewPostButton'
 import NewPostModalWindow from './FeedPage/NewPostModalWindow'
 import FeedContent from './FeedPage/FeedContent'
+import Footer from './Footer'
 
 const Feed = () => {
 
@@ -15,6 +16,7 @@ const Feed = () => {
             <FeedContent/>
             <NewPostButton onClick={() => setIsModalActive(true)}/>
             <NewPostModalWindow active={isModalActive} setActive={setIsModalActive}/>
+            <Footer fixed={false}/>
         </div>
     );
 };

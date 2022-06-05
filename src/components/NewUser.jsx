@@ -1,5 +1,6 @@
 import React from 'react';
 import UserInputForm from './GeneralComponents/UserInputForm'
+import Footer from './Footer'
 
 import './TopLevelStyles/inputFormStyles.css'
 
@@ -12,6 +13,7 @@ const NewUser = () => {
                                                {id: 2, name: "password"},
                                                {id: 3, name: "confirm password"} ] }
                            buttonText={"register"} />
+            <Footer fixed={true}/>
         </div>
     );
 };

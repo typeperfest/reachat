@@ -17,15 +17,15 @@
 }
 
 .form.login {
-    width: 30vw;
-    height: 70vh;
-    top: 10vh;
+    margin-top: 19%;
+    width: 430px;
+    height: 560px;
 }
 
 .form.register {
-    height: 50vh;
-    width: 35vw;
-    top: 20vh;
+    margin-top: 16%;
+    height: 500px;
+    width: 400px;
 }
 
 .tagline {
