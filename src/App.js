@@ -7,7 +7,6 @@ import {
 import Login from './components/Login'
 import Feed from './components/Feed'
 import NewUser from './components/NewUser'
-import Footer from './components/Footer'
 
 import './styles/App.css'
 
@@ -22,7 +21,6 @@ function App() {
                   <Route path="/" element={<Login/>} />
               </Routes>
           </Router>
-          <Footer/>
       </div>
   );
 }
