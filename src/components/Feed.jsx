@@ -6,12 +6,14 @@ import NewPostModalWindow from './FeedPage/NewPostModalWindow'
 import FeedContent from './FeedPage/FeedContent'
 import Footer from './GeneralComponents/Footer'
 
+import './TopLevelStyles/wrapperStyles.css'
+
 const Feed = () => {
 
     let [isModalActive, setIsModalActive] = useState(false)
 
     return (
-        <div>
+        <div className={"feedWrapper"}>
             <NavBar/>
             <FeedContent/>
             <NewPostButton onClick={() => setIsModalActive(true)}/>

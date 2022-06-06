@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import Post from "./Post"
 import './postStyles.css'
 
-const PostList = () => {
+const PostList = (props) => {
+
+    // axios must get all users / specified user
 
     let [postList, setPostList] = useState([
         {

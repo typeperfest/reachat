@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     margin-top: 45px;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 70%;
+    box-shadow:
+            inset 20px 0 20px rgba(0, 0, 0, 0.05),
+            inset -20px 0 20px rgba(0, 0, 0, 0.05);
 }
 
 .postContent {
