@@ -7,6 +7,7 @@ import {
 import Login from './components/Login'
 import Feed from './components/Feed'
 import NewUser from './components/NewUser'
+import Profile from './components/Profile/Profile'
 
 import './styles/App.css'
 
@@ -19,6 +20,7 @@ function App() {
                   <Route path="/feed" element={<Feed/>} />
                   <Route path="/register" element={<NewUser/>} />
                   <Route path="/" element={<Login/>} />
+                  <Route path="/profile" element={<Profile/>} />
               </Routes>
           </Router>
       </div>
