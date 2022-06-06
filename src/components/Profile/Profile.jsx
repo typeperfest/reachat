@@ -8,7 +8,7 @@ import './profileStyles.css'
 
 const Profile = () => {
     return (
-        <div className={"profile"}>
+        <div className={"profileWrapper"}>
             <NavBar/>
             <ProfileCard profileName={"Specified Name"}/>
             <PostList/>
