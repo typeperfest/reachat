@@ -1,5 +1,8 @@
 import React from 'react';
-import NavBar from '../FeedPage/NavBar'
+import NavBar from '../GeneralComponents/NavBarComponents/NavBar'
+import ProfileCard from './ProfileCard'
+import Footer from '../GeneralComponents/Footer'
+import PostList from '../GeneralComponents/PostComponents/PostList'
 
 import './profileStyles.css'
 
@@ -7,7 +10,9 @@ const Profile = () => {
     return (
         <div className={"profile"}>
             <NavBar/>
-
+            <ProfileCard profileName={"Specified Name"}/>
+            <PostList/>
+            <Footer/>
         </div>
     );
 };

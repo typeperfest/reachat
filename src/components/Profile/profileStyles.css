@@ -1,4 +1,25 @@
 .profile {
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.profileCard {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    flex: 1 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font: small-caps bold 32px sans-serif;
+    box-shadow:
+            0 20px 20px rgba(0, 0, 0, 0.05),
+            -20px 0 20px rgba(0, 0, 0, 0.05),
+            0 -20px 20px rgba(0, 0, 0, 0.05),
+            20px 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.profilePicture {
+    border-radius: 50%;
 }
