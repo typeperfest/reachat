@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Post from "./Post"
-import './styles/feedContentStyles.css'
+import './postStyles.css'
 
 const PostList = () => {
 

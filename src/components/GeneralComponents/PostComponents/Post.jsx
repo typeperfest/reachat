@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/feedContentStyles.css'
+import './postStyles.css'
 
 const Post = (props) => {
     return (

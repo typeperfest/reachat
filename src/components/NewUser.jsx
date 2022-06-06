@@ -1,6 +1,6 @@
 import React from 'react';
 import UserInputForm from './GeneralComponents/UserInputForm'
-import Footer from './Footer'
+import Footer from './GeneralComponents/Footer'
 
 import './TopLevelStyles/inputFormStyles.css'
 import './TopLevelStyles/wrapperStyles.css'

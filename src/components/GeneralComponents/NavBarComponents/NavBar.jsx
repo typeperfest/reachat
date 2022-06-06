@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarButton from './NavBarButton'
-import './styles/navBarStyles.css'
+
+import './navBarStyles.css'
 
 const NavBar = () => {
 

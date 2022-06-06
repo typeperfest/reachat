@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/navBarStyles.css'
+import './navBarStyles.css'
 
 const NavBarButton = (props) => {
 

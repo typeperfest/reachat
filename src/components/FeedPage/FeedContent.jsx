@@ -1,5 +1,5 @@
 import React from 'react';
-import PostList from './PostList'
+import PostList from '../GeneralComponents/PostComponents/PostList'
 import './styles/feedContentStyles.css'
 
 const FeedContent = () => {
