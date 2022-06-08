@@ -5,7 +5,7 @@ import NewUser from '../Pages/NewUser'
 
 export const publicRoutes = [
     {path: "/login", exact: true, element: <Login/>},
-    {path: "/registration", exact: true, element: <NewUser/>}
+    {path: "/register", exact: true, element: <NewUser/>}
 ]
 
 export const privateRoutes = [
