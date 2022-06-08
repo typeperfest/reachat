@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 
-import NavBar from './GeneralComponents/NavBarComponents/NavBar'
-import NewPostButton from './FeedPage/NewPostButton'
-import NewPostModalWindow from './FeedPage/NewPostModalWindow'
-import FeedContent from './FeedPage/FeedContent'
-import Footer from './GeneralComponents/Footer'
+import NavBar from '../GeneralComponents/NavBarComponents/NavBar'
+import NewPostButton from '../FeedPage/NewPostButton'
+import NewPostModalWindow from '../FeedPage/NewPostModalWindow'
+import FeedContent from '../FeedPage/FeedContent'
+import Footer from '../GeneralComponents/Footer'
 
-import './TopLevelStyles/wrapperStyles.css'
+import '../TopLevelStyles/wrapperStyles.css'
 
 const Feed = () => {
 

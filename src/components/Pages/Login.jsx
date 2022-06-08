@@ -1,10 +1,10 @@
 import React from 'react';
-import UserInputForm from './GeneralComponents/UserInputForm'
-import Logo from './GeneralComponents/Logo'
-import Footer from './GeneralComponents/Footer'
+import UserInputForm from '../GeneralComponents/UserInputForm'
+import Logo from '../GeneralComponents/Logo'
+import Footer from '../GeneralComponents/Footer'
 
-import './TopLevelStyles/inputFormStyles.css'
-import './TopLevelStyles/wrapperStyles.css'
+import '../TopLevelStyles/inputFormStyles.css'
+import '../TopLevelStyles/wrapperStyles.css'
 
 const Login = () => {
 
