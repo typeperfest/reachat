@@ -4,9 +4,9 @@ import {
     Route,
     Routes
 } from 'react-router-dom'
-import Login from './components/Login'
-import Feed from './components/Feed'
-import NewUser from './components/NewUser'
+import Login from './components/Pages/Login'
+import Feed from './components/Pages/Feed'
+import NewUser from './components/Pages/NewUser'
 import Profile from './components/Profile/Profile'
 
 import './styles/App.css'
