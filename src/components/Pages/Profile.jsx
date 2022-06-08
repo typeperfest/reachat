@@ -1,10 +1,10 @@
 import React from 'react';
 import NavBar from '../GeneralComponents/NavBarComponents/NavBar'
-import ProfileCard from './ProfileCard'
+import ProfileCard from '../Profile/ProfileCard'
 import Footer from '../GeneralComponents/Footer'
 import PostList from '../GeneralComponents/PostComponents/PostList'
 
-import './profileStyles.css'
+import '../Profile/profileStyles.css'
 
 const Profile = () => {
     return (
