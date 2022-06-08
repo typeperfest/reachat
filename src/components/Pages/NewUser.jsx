@@ -15,6 +15,7 @@ const NewUser = () => {
                     {id: 2, name: "password"},
                     {id: 3, name: "confirm password"} ] }
                                buttonText={"register"} />
+                <a href="/login">Already have an account?</a>
             </div>
             <Footer/>
         </div>
