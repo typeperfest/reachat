@@ -19,7 +19,6 @@ function App() {
                   <Route path="/login" element={<Login/>} />
                   <Route path="/feed" element={<Feed/>} />
                   <Route path="/register" element={<NewUser/>} />
-                  <Route path="/" element={<Login/>} />
                   <Route path="/profile" element={<Profile/>} />
               </Routes>
           </Router>
